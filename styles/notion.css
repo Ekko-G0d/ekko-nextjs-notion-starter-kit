@@ -403,3 +403,15 @@
 .notion-equation.notion-equation-block{
   align-items: center;
 }
+
+/* 在这段 CSS 样式中添加以下代码 */
+.notion-asset-wrapper img {
+  max-width: 100%; /* 图片的最大宽度为父元素宽度 */
+  height: auto; /* 自动计算图片高度，保持纵横比 */
+}
+
+/* 如果需要在特定情况下调整图片尺寸，可以单独为不同类或选择器设置样式 */
+.notion-collection-card-cover img {
+  max-width: 100%; /* 图片的最大宽度为父元素宽度 */
+  height: auto; /* 自动计算图片高度，保持纵横比 */
+}
